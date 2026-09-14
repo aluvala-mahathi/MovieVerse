@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MovieVerse</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            🎬 <span>Movie</span>Verse
+        </div>
+
+        <nav>
+            <a class="active" href="index.html">🏠 Home</a>
+            <a href="movies.html">▦ Movies</a>
+            <a href="login.html">👤 Login</a>
+            <a href="register.html">👤 Register</a>
+        </nav>
+
+        <div class="nav-search">
+            🔍 <input 
+            
+                     type="text"
+                     id="search"
+                     placeholder="Search movies..."
+>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO</p>
+
+            <h1>
+                Movie<span>Verse</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover, explore and enjoy your next
+                favorite movie.
+            </p>
+
+            <a href="movies.html">
+                <button class="explore-btn">
+                    Explore Movies →
+                </button>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPLORE SECTION -->
+
+    <section class="explore">
+
+        <h2>🎞 Explore Movies</h2>
+
+        <p>
+            Browse through a collection of amazing movies
+            from different genres and languages.
+        </p>
+
+
+        <!-- CATEGORY BUTTONS -->
+
+        <div class="categories">
+
+            <button class="category active-category">All</button>
+
+            <button class="category">Action</button>
+
+            <button class="category">Comedy</button>
+
+            <button class="category">Drama</button>
+
+            <button class="category">Thriller</button>
+
+            <button class="category">Horror</button>
+
+            <button class="category">Sci-Fi</button>
+
+            <button class="category">Romance</button>
+
+        </div>
+
+
+        <!-- MOVIES -->
+
+        <div id="movieContainer"></div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        🎬 <i>"Good movies make life better."</i>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
